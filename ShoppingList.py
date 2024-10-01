@@ -17,9 +17,8 @@ if itemNumber >=1:
 
 
     itemOne = input("Enter first item: ")
-
-    
     itemOneQuantity = int(input(f"Enter the quantity of {itemOne}: " ))
+    itemOnePrice = float(input(f"Enter the price of {itemOne}: $" ))
     
     print()
         
@@ -27,14 +26,14 @@ if itemNumber >=2:
     
     itemTwo = input("Enter second item: ")
     itemTwoQuantity = int(input(f"Enter the quantity of {itemTwo}: " ))
-    itemTwoPrice = float(input(f"Enter the price of the {itemTwo} cost: $"))
+    itemTwoPrice = float(input(f"Enter the price of the {itemTwo}: $"))
     
     print()
 
 if itemNumber >=3:
     itemThree = input("Enter third item: ")
     itemThreeQuantity = int(input(f"Enter the quantity of {itemThree}: " ))
-    itemThreePrice = float(input(f"Enter the price of {itemThree} cost: $"))
+    itemThreePrice = float(input(f"Enter the price of {itemThree}: $"))
     
     print()
 
